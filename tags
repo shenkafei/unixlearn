@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	bin/Makefile	/^CC = gcc$/;"	m
+CFLAGS	bin/Makefile	/^CFLAGS = -I ..\/include\/ -L ..\/lib\/ -g -Wall$/;"	m
+DIR_MODE	include/pub/apue.h	25;"	d
+ENname	include/phonebook.h	/^    char  ENname[MAX_EN_NAME_LEN];$/;"	m	struct:_phone_book	access:public
+ERROR	include/sqlist.h	17;"	d
+ElemType	include/sqlist.h	/^typedef struct _phone_book ElemType;$/;"	t	typeref:struct:_phone_book
+FALSE	include/sqlist.h	15;"	d
+FILE_MODE	include/pub/apue.h	23;"	d
+INFEASIBLE	include/sqlist.h	18;"	d
+LISTINCREMENT	include/sqlist.h	25;"	d
+LIST_INIT_LEN	include/sqlist.h	24;"	d
+MAXLINE	include/pub/apue.h	21;"	d
+MAX_CODE_LEN	include/phonebook.h	13;"	d
+MAX_EN_NAME_LEN	include/phonebook.h	12;"	d
+MAX_NAME_LEN	include/phonebook.h	11;"	d
+MAX_NAME_LEN	include/sqlist.h	26;"	d
+OBJS	bin/Makefile	/^OBJS := $(patsubst %.c,%.o,$(SRC))$/;"	m
+OK	include/sqlist.h	16;"	d
+OVERFLOW	include/sqlist.h	19;"	d
+PBList	src/phonebook.c	/^SqList PBList;$/;"	v
+PhoneBook_AddElem	src/phonebook.c	/^int PhoneBook_AddElem(void)$/;"	f	signature:(void)
+PhoneBook_DelElem	src/phonebook.c	/^int PhoneBook_DelElem()$/;"	f
+PhoneBook_Destroy	src/phonebook.c	/^int PhoneBook_Destroy(void)$/;"	f	signature:(void)
+PhoneBook_EditElem	src/phonebook.c	/^int PhoneBook_EditElem()$/;"	f
+PhoneBook_Init	src/phonebook.c	/^int PhoneBook_Init(void)$/;"	f	signature:(void)
+PhoneBook_ShowList	src/phonebook.c	/^int PhoneBook_ShowList(void)$/;"	f	signature:(void)
+SIG_ERR	include/pub/apue.h	30;"	d
+SRC	bin/Makefile	/^SRC := $(shell find ..\/ -name *.c)$/;"	m
+Sigfunc	include/pub/apue.h	/^typedef void Sigfunc(int);$/;"	t
+SqList	include/sqlist.h	/^typedef struct _sqlist   SqList;$/;"	t	typeref:struct:_sqlist
+SqList_Clear	include/sqlist.h	/^Status SqList_Clear(SqList *L);$/;"	p	signature:(SqList *L)
+SqList_Clear	src/sqlist.c	/^Status SqList_Clear(SqList *L)$/;"	f	signature:(SqList *L)
+SqList_DeleteElem	include/sqlist.h	/^Status SqList_DeleteElem(Sqlist *L, int i, ElemType *elem);$/;"	p	signature:(Sqlist *L, int i, ElemType *elem)
+SqList_DeleteElem	src/sqlist.c	/^Status SqList_DeleteElem(SqList *L, int i, ElemType *elem)$/;"	f	signature:(SqList *L, int i, ElemType *elem)
+SqList_Destroy	include/sqlist.h	/^Status SqList_Destroy(SqList *L);$/;"	p	signature:(SqList *L)
+SqList_Destroy	src/sqlist.c	/^Status SqList_Destroy(SqList *L)$/;"	f	signature:(SqList *L)
+SqList_GetElem	src/sqlist.c	/^Status SqList_GetElem(SqList *L, int i, ElemType *elem)$/;"	f	signature:(SqList *L, int i, ElemType *elem)
+SqList_Init	include/sqlist.h	/^Status SqList_Init(SqList *L);$/;"	p	signature:(SqList *L)
+SqList_Init	src/sqlist.c	/^Status SqList_Init(SqList *L)$/;"	f	signature:(SqList *L)
+SqList_InsertElem	include/sqlist.h	/^Status SqList_InsertElem(SqList *L, int i, ElemType elem);$/;"	p	signature:(SqList *L, int i, ElemType elem)
+SqList_InsertElem	src/sqlist.c	/^Status SqList_InsertElem(SqList *L, int i, ElemType elem)$/;"	f	signature:(SqList *L, int i, ElemType elem)
+SqList_IsEmpty	src/sqlist.c	/^Status SqList_IsEmpty(SqList L)$/;"	f	signature:(SqList L)
+SqList_Length	src/sqlist.c	/^int SqList_Length(SqList L)$/;"	f	signature:(SqList L)
+SqList_LocateEelm	src/sqlist.c	/^int SqList_LocateEelm(SqList *L, ElemType elem, compare func)$/;"	f	signature:(SqList *L, ElemType elem, compare func)
+SqList_NexElem	src/sqlist.c	/^Status SqList_NexElem(SqList *L, ElemType cur_e, ElemType *next_e)$/;"	f	signature:(SqList *L, ElemType cur_e, ElemType *next_e)
+SqList_PriorElem	src/sqlist.c	/^Status SqList_PriorElem(SqList *L, ElemType cur_e, ElemType *pre_e)$/;"	f	signature:(SqList *L, ElemType cur_e, ElemType *pre_e)
+SqList_Traverse	src/sqlist.c	/^Status SqList_Traverse(SqList *L, visit func)$/;"	f	signature:(SqList *L, visit func)
+Status	include/sqlist.h	/^typedef int Status;$/;"	t
+TRUE	include/sqlist.h	14;"	d
+_APUT_H	include/pub/apue.h	2;"	d
+_PHONEBOOK_H	include/phonebook.h	9;"	d
+_SQLIST_H	include/sqlist.h	9;"	d
+_XOPEN_SOURCE	include/pub/apue.h	4;"	d
+_elemtype	include/sqlist.h	/^struct _elemtype$/;"	s
+_elemtype::name	include/sqlist.h	/^    char name[MAX_NAME_LEN];$/;"	m	struct:_elemtype	access:public
+_elemtype::socre	include/sqlist.h	/^    int  socre;$/;"	m	struct:_elemtype	access:public
+_phone_book	include/phonebook.h	/^typedef struct _phone_book$/;"	s
+_phone_book::ENname	include/phonebook.h	/^    char  ENname[MAX_EN_NAME_LEN];$/;"	m	struct:_phone_book	access:public
+_phone_book::code	include/phonebook.h	/^    char  code[MAX_CODE_LEN];$/;"	m	struct:_phone_book	access:public
+_phone_book::name	include/phonebook.h	/^    char  name[MAX_NAME_LEN];$/;"	m	struct:_phone_book	access:public
+_phone_book::sex	include/phonebook.h	/^    Sex   sex;$/;"	m	struct:_phone_book	access:public
+_sqlist	include/sqlist.h	/^struct _sqlist$/;"	s
+_sqlist::elem	include/sqlist.h	/^    ElemType *elem;   \/\/ 存储空间基地址$/;"	m	struct:_sqlist	access:public
+_sqlist::length	include/sqlist.h	/^    int length;       \/\/ 当前长度$/;"	m	struct:_sqlist	access:public
+_sqlist::listsize	include/sqlist.h	/^    int listsize;    \/\/ 当前分配的存储容量$/;"	m	struct:_sqlist	access:public
+code	include/phonebook.h	/^    char  code[MAX_CODE_LEN];$/;"	m	struct:_phone_book	access:public
+compare	include/sqlist.h	/^typedef Status (* compare)(ElemType e1, ElemType e2);$/;"	t
+console	test/test.c	/^void console(void)$/;"	f	signature:(void)
+elem	include/sqlist.h	/^    ElemType *elem;   \/\/ 存储空间基地址$/;"	m	struct:_sqlist	access:public
+err_doit	src/pub/sys_err.c	/^static void err_doit(int errnoflag, int error, const char *fmt, va_list ap)$/;"	f	file:	signature:(int errnoflag, int error, const char *fmt, va_list ap)
+err_doit	src/pub/sys_err.c	/^static void err_doit(int errnoflag, int error, const char *fmt, va_list ap);$/;"	p	file:	signature:(int errnoflag, int error, const char *fmt, va_list ap)
+err_dump	include/pub/apue.h	/^void err_dump(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+err_dump	src/pub/sys_err.c	/^void err_dump(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_exit	include/pub/apue.h	/^void err_exit(int error, const char *fmt, ...);$/;"	p	signature:(int error, const char *fmt, ...)
+err_exit	src/pub/sys_err.c	/^void err_exit(int error, const char *fmt, ...)$/;"	f	signature:(int error, const char *fmt, ...)
+err_msg	include/pub/apue.h	/^void err_msg(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+err_msg	src/pub/sys_err.c	/^void err_msg(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_quit	include/pub/apue.h	/^void err_quit(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+err_quit	src/pub/sys_err.c	/^void err_quit(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_ret	include/pub/apue.h	/^void err_ret(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+err_ret	src/pub/sys_err.c	/^void err_ret(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+err_sys	include/pub/apue.h	/^void err_sys(const char *fmt, ...);$/;"	p	signature:(const char *fmt, ...)
+err_sys	src/pub/sys_err.c	/^void err_sys(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+g_IsPhoneBookInitCmp	src/phonebook.c	/^int g_IsPhoneBookInitCmp = FALSE;$/;"	v
+length	include/sqlist.h	/^    int length;       \/\/ 当前长度$/;"	m	struct:_sqlist	access:public
+listsize	include/sqlist.h	/^    int listsize;    \/\/ 当前分配的存储容量$/;"	m	struct:_sqlist	access:public
+main	test/test.c	/^int main(int argc, char *agrv[])$/;"	f	signature:(int argc, char *agrv[])
+max	include/pub/apue.h	34;"	d
+min	include/pub/apue.h	33;"	d
+name	include/phonebook.h	/^    char  name[MAX_NAME_LEN];$/;"	m	struct:_phone_book	access:public
+name	include/sqlist.h	/^    char name[MAX_NAME_LEN];$/;"	m	struct:_elemtype	access:public
+sex	include/phonebook.h	/^    Sex   sex;$/;"	m	struct:_phone_book	access:public
+socre	include/sqlist.h	/^    int  socre;$/;"	m	struct:_elemtype	access:public
+visit	include/sqlist.h	/^typedef Status (* visit)(ElemType e);$/;"	t
