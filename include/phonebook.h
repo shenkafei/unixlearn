@@ -28,6 +28,8 @@ struct _phone_book
 
 };
 
+int PhoneBook_Init(void);
+
 int PhoneBook_ShowList(void);
 
 int PhoneBook_AddElem(void);
